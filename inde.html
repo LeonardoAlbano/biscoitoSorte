@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>Jogo de Adivinhação</title>
+</head>
+<body>
+    <main>
+
+      <div class="screen1 ">
+        <h1>Qual é a sua sorte 
+            de hoje?</h1>
+        <p>Abra o biscoito e descruba!</p>
+
+        <form>
+            <img id="btnBiscoito" class="tremer" src="asset/fortune-cookie.png" >
+        </form>
+      
+      </div>  
+
+      <div class="screen2 hide">
+        <h2>Aqui está a sua mensagem
+            de Hoje:
+        </h2>
+
+        <p id="fraseAleatorias" class="animacaoSubir"></p>
+
+        
+        <form class="biscoito">
+          <img src="asset/opened-cookie.png" > 
+        </form>
+
+        <button id="btnReset">Abrir outro Biscoito</button>
+        
+      </div>
+        
+    </main>
+
+<script src="main.js"></script>    
+</body>
+</html>
